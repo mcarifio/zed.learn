@@ -1,0 +1,68 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "terminal": {
+    "font_size": 20.0
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "agent_servers": {
+    "codex-acp": {
+      "type": "registry"
+    },
+    "github-copilot-cli": {
+      "type": "registry"
+    },
+    "claude-acp": {
+      "type": "registry"
+    }
+  },
+  "base_keymap": "Emacs",
+  "ui_font_size": 20.0,
+  "buffer_font_size": 20.0,
+  "theme": {
+    "mode": "system",
+    "light": "Gruvbox Light",
+    "dark": "Gruvbox Dark"
+  },
+  "extensions": {
+    "zed-rust": true,
+    "zed-python": true,
+    "html": true,
+    "toml": true,
+    "sql": true,
+    "make": true,
+    "xml": true,
+    "terraform": true,
+    "emmet": true,
+    "zig": true,
+    "proto": true,
+    "csv": true,
+    "docker-compose": true,
+    "graphql": true,
+    "basher": true,
+    "mcp-server-github": true,
+    "haskell": true,
+    "just": true,
+    "ansible": true,
+    "basedpyright": true,
+    "github-actions": true,
+    "deno": true,
+    "ruff": true,
+    "ty": true,
+    "typespec": true,
+    "typescript": true,
+    "yaml": true
+  }
+}
