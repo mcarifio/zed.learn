@@ -1,0 +1,16 @@
+here:
+    about:
+	id: zed
+	description: zed editor
+	refs:
+	   doc: https://zed.dev/docs/
+    repo:
+        description: zed flailings
+	url: https://github.com/mcarifio/zed.learn.git
+	about: README.yaml.md
+	purpose: replace emacs?
+
+
+	    
+
+    	
